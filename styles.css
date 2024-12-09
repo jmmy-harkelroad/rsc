@@ -213,6 +213,7 @@ footer{
     justify-content: left; 
     align-items: first baseline; 
     padding: 4rem 3rem;
+    overflow: scroll;
 }
 
 .contact-section {
