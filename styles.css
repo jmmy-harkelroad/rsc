@@ -175,7 +175,7 @@ footer{
     flex-wrap: wrap;
     justify-content: left; 
     align-items: first baseline; 
-    padding: 4rem 3rem;
+    padding: 4rem 4rem 0.5rem 0.5rem;
 }
 
 .location-info > h2{
