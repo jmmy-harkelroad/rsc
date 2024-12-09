@@ -33,6 +33,10 @@ Filename: styles.css
         -webkit-appearance: none; /* Ensures cross-browser compatibility */       /* Optional: makes it look clickable */
     }
 
+    details summary::-webkit-details-marker {
+        display: none;                /* Explicitly hides the dropdown marker in Safari */
+    }
+
     .navbar{
         display: none;
     }
