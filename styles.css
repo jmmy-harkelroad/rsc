@@ -179,7 +179,7 @@ footer{
     flex-wrap: wrap;
     justify-content: left; 
     align-items: first baseline; 
-    padding: 4rem 4rem 0.5rem 0.5rem;
+    padding: 4rem 3rem;
 }
 
 .location-info > h2{
@@ -190,12 +190,12 @@ footer{
 .location-info > p{
     font-size: 1.25 rem;
     padding: 0.5rem 0rem;
-    width: 150%
+    width: 70%
 }
 
 #map{
-    width: 200%;
-    height: 200%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
 }
 
