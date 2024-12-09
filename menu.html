@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Rolling Stone Creamery Website
+
+    Author:  James Harkelroad
+    Date:    December 8, 2024
+    Filename: menu.html
+   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rolling Stone Creamery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/icon.ico" type="image/x-icon">
+
+    <style>
+        #choc{
+            height: 10%;
+            width: 10%;
+            min-height: 70px;
+            min-width: 70px;
+        }
+        #strawberry{
+            height: 12%;
+            width: 12%;
+            min-height: 70x;
+            min-width: 70px;
+        }
+
+        #menu-title {
+            width: 50%;
+            text-align: center;  
+            display: flex;  
+            justify-content: center; 
+            align-items: center;
+            margin: 0 auto; 
+        }
+
+        #menu-title > h2 {
+            font-size: 3rem;
+            margin: 1em;
+        }
+
+        .menu-info {
+            padding: 2rem;
+        }
+
+        .menu-grid {
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 2rem; 
+            margin: 2rem 0;
+        }
+
+        .menu-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="head-content">
+            <img src="/images/halfLogo.png" alt="The Rolling Stone Creamery Logo" id="headLogo">
+            <details>
+                <summary><img src="/images/nav-bar.png" id="nav-bar"></summary>
+                <a href="index.html">ABOUT</a><br/>
+                <a href="menu.html">MENU</a><br/>
+                <a href="location.html">LOCATION </a><br/>
+                <a href="contact.html">CONTACT</a>
+              </details>
+            <nav class="navbar">
+                <a href="index.html">ABOUT</a>
+                <a href="menu.html">MENU</a>
+                <a href="location.html">LOCATION </a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="menu-info">
+            <div id="menu-title">
+                <img src="/images/strawberry.png" alt="chocolate icecream" id="strawberry" class="icecream" />
+                <h2 style="color:white"> Ice Cream Menu</h2>
+                <img src="/images/choc.png" alt="chocolate icecream" id="choc" class="icecream" />
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Classic Flavors</h3>
+                    <p>Vanilla Bean</p>
+                    <p>Rich Chocolate</p>
+                    <p>Fresh Strawberry</p>
+                    <p>Single $3.50 | Double $5.00</p>
+                </div>
+                
+                <div class="menu-item">
+                    <h3>Premium Flavors</h3>
+                    <p>Lighthouse Special</p>
+                    <p>Lake Erie Breeze</p>
+                    <p>Pier Paradise</p>
+                    <p>Single $4.00 | Double $5.50</p>
+                </div>
+                
+                <div class="menu-item">
+                    <h3>Signature Sundaes</h3>
+                    <p>Lighthouse Tower</p>
+                    <p>Sunset Special</p>
+                    <p>Beach Blast</p>
+                    <p>Starting at $6.50</p>
+                </div>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Toppings</h3>
+                    <p>Sprinkles</p>
+                    <p>Hot Fudge</p>
+                    <p>Whipped Cream</p>
+                    <p>$.50 each</p>
+                </div>
+                
+                <div class="menu-item">
+                    <h3>Specialty Toppings</h3>
+                    <p>Candied Pecans</p>
+                    <p>Local Maple Syrup</p>
+                    <p>Fresh Berries</p>
+                    <p>$1.00 each</p>
+                </div>
+                
+                <div class="menu-item">
+                    <h3>Extras</h3>
+                    <p>Waffle Cone $1.00</p>
+                    <p>Extra Scoop $2.00</p>
+                    <p>Take-Home Pint $6.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <aside class="foot-content">
+            <img src="/images/logo.png" alt="The Rolling Stone Creamery Logo" class="foot-logo">
+            <div class = "foot-copyright">        
+                <p>The Rolling Stone Creamery</p>
+                <p>Located at the Lighthouse Pier | Huron, Ohio</p>
+                <p>&copy; 2024 The Rolling Stone Creamery. All rights reserved.</p>
+            </div>
+        </aside>
+    </footer>
+</body>
+</html>
+

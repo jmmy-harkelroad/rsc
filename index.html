@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Rolling Stone Creamery Website
+
+    Author:  James Harkelroad
+    Date:    December 8, 2024
+    Filename: index.html
+   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rolling Stone Creamery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/icon.ico" type="image/x-icon">
+
+    <style>
+        .hours-table {
+            color: white;
+            width: 100%;
+            max-width: 400px;
+            margin: 1rem auto;
+            background: rgba(0, 0, 0, 0.5);
+            border-collapse: collapse;
+        }
+
+        .hours-table th, .hours-table td {
+            padding: 0.75rem;
+            border: 1px solid rgb(233, 30, 99);
+        }
+        h3{
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        caption{
+            color:lightgrey;
+            caption-side: bottom;
+            text-align: left;
+            margin: 0.2em auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="head-content">
+            <img src="/images/halfLogo.png" alt="The Rolling Stone Creamery Logo" id="headLogo">
+            <details>
+                <summary><img src="/images/nav-bar.png" id="nav-bar"></summary>
+                <a href="index.html">ABOUT</a><br/>
+                <a href="menu.html">MENU</a><br/>
+                <a href="location.html">LOCATION </a><br/>
+                <a href="contact.html">CONTACT</a>
+              </details>
+            <nav class="navbar">
+                <a href="index.html">ABOUT</a>
+                <a href="menu.html">MENU</a>
+                <a href="location.html">LOCATION </a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Located at the scenic Lighthouse Pier in Huron, Ohio, The Rolling Stone Creamery offers a unique outdoor ice cream experience. Enjoy your favorite frozen treats while taking in breathtaking views of Lake Erie and our historic lighthouse.</p>
+            <aside style="padding: 4rem 0;">
+                <h3>Hours of Operation</h3>
+                <table class="hours-table">
+                    <caption> <strong style="color: rgb(255, 215, 0);">*</strong> Operation Months: June 1st - October 31st </caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Hours <strong style="color: rgb(255, 215, 0);">*</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Thursday</td>
+                            <td>12:00 PM - 9:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday - Sunday</td>
+                            <td>11:00 AM - 10:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <aside class="foot-content">
+            <img src="/images/logo.png" alt="The Rolling Stone Creamery Logo" class="foot-logo">
+            <div class = "foot-copyright">        
+                <p>The Rolling Stone Creamery</p>
+                <p>Located at the Lighthouse Pier | Huron, Ohio</p>
+                <p>&copy; 2024 The Rolling Stone Creamery. All rights reserved.</p>
+            </div>
+        </aside>
+    </footer>
+</body>
+</html>
+

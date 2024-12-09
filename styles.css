@@ -1,0 +1,254 @@
+/*
+Rolling Stone Creamery Website
+
+Author:  James Harkelroad
+Date:    December 8, 2024
+Filename: styles.css
+*/
+
+/*Root Styles for all pages*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 16px;
+    --background: #121212;
+}
+
+@media (max-width: 768px) {
+    #nav-bar{
+        filter: invert(100%);
+        height: 100%;
+        width: 100%;
+    }
+    details {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+      }
+      summary {
+        flex-shrink: 0; /* Prevents summary from shrinking */
+      }
+    .navbar{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    details{
+        display: none;
+    }
+  }
+
+header{
+    border-bottom: 0.75rem solid rgb(233, 30, 99);
+    position: sticky;
+    top: 0;  /* Stick to the top */
+    background:var(--background);
+}
+
+#nav-bar{
+    filter: invert(100%);
+    height: 100%;
+    width: 100%;
+}
+
+summary{
+    list-style: none;
+    appearance: none;
+}
+
+#head-content{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    overflow: hidden;
+    border-bottom: 0.25rem solid rgb(255, 215, 0);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav, a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 215, 0);
+    text-align: left;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline rgb(233, 30, 99);
+}
+
+#headLogo {
+    width: 50%;
+    height: 50%;
+    max-width: 300px
+}
+
+body{
+    background: var(--background);
+}
+
+main{
+    overflow: hidden;
+}
+
+footer{
+    border-top: 0.75rem solid rgb(233, 30, 99);
+}
+
+.foot-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    overflow: hidden;
+    color: rgb(255, 215, 0);
+    border-top: 0.25rem solid rgb(255, 215, 0);
+}
+
+.foot-copyright{
+    font-size: 1rem;
+    align-self: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.foot-logo{
+    height: 10%;
+    width: 10%;
+    min-height: 150px;
+    min-width: 150px;
+    padding: 2rem;
+}
+
+
+/*Styles for About Us/index.html */
+.about-us {
+    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("/images/boat.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height: 100vh;
+    display: flex; /* Optional: For centering content */
+    flex-direction: column;
+    justify-content: left; 
+    align-items: first baseline; 
+    padding: 4rem 3rem;
+}
+.about-us > h2{
+    margin: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.about-us > p{
+    width: 50%;
+    font-size: 1.25rem;
+}
+
+
+/*Styles for Location/location.html */
+.location-info {
+    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("/images/stream.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left; 
+    align-items: first baseline; 
+    padding: 4rem 3rem;
+}
+
+.location-info > h2{
+    font-size: 2rem;
+    padding: 2rem 0rem;
+}
+
+.location-info > p{
+    font-size: 1.25 rem;
+    padding: 0.5rem 0rem;
+    width: 70%;
+}
+
+#map{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+/*Styles for Contact/contact.html */
+#contact-main{
+    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("/images/firework.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left; 
+    align-items: first baseline; 
+    padding: 4rem 3rem;
+}
+
+.contact-section {
+    color: white;
+    padding: 2rem auto;
+    border-radius: 8px;
+    max-width: 400px;
+
+}
+
+.contact-section > h2{
+    font-size: 2rem;
+    padding: 2rem 0rem;
+}
+
+.contact-section > p{
+    font-size: 1.25 rem;
+    padding: 0.5rem 0rem;
+    width: 70%;
+}
+
+.contact-form > h2{
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+button {
+    background: rgb(233, 30, 99);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background:rgb(165, 20, 69);
+}
+
+
