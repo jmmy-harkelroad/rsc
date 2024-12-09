@@ -31,10 +31,12 @@ Filename: styles.css
         list-style: none;       /* Removes the default bullet or marker */
         appearance: none;       /* Removes the default dropdown triangle */
         -webkit-appearance: none; /* Ensures cross-browser compatibility */       /* Optional: makes it look clickable */
+        cursor: pointer;                /* Optional: Keep it clickable */
+        display: inline-block;      
     }
 
     details summary::-webkit-details-marker {
-        display: none;                /* Explicitly hides the dropdown marker in Safari */
+        display: none !important;                /* Explicitly hides the dropdown marker in Safari */
     }
 
     .navbar{
