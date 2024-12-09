@@ -28,11 +28,10 @@ Filename: styles.css
       }
 
     summary {
-  list-style: none;       /* Removes the default bullet or marker */
-  appearance: none;       /* Removes the default dropdown triangle */
-  -webkit-appearance: none; /* Ensures cross-browser compatibility */
-  cursor: pointer;        /* Optional: makes it look clickable */
-}
+        list-style: none;       /* Removes the default bullet or marker */
+        appearance: none;       /* Removes the default dropdown triangle */
+        -webkit-appearance: none; /* Ensures cross-browser compatibility */       /* Optional: makes it look clickable */
+    }
 
     .navbar{
         display: none;
