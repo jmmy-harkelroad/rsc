@@ -35,6 +35,10 @@ Filename: styles.css
         display: inline-block;      
     }
 
+    #map{
+        display: none;
+    }
+
     details summary::-webkit-details-marker {
         display: none !important;                /* Explicitly hides the dropdown marker in Safari */
     }
