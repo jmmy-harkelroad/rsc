@@ -131,7 +131,7 @@ footer{
 
 /*Styles for About Us/index.html */
 .about-us {
-    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("/images/boat.png") ;
+    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("images/boat.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
@@ -155,7 +155,7 @@ footer{
 
 /*Styles for Location/location.html */
 .location-info {
-    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("/images/stream.png") ;
+    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("images/stream.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
@@ -188,7 +188,7 @@ footer{
 
 /*Styles for Contact/contact.html */
 #contact-main{
-    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("/images/firework.png") ;
+    background: linear-gradient(to right, rgba(19, 2, 8, 1), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)), url("images/firework.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
